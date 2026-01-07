@@ -1,0 +1,36 @@
+-----Testovací scénář 4-----
+
+Název:
+Zpracování vstupu obsahujícího číslice
+
+Nástroje:
+Webový prohlížeč (Chrome), přístup k internetu
+
+Kroky:
+1) Otevřu stránku: https://test-intro.engeto.com/
+2) Do pole Křestní jméno zadám: 1111
+3) Do pole Město zadám: 2222
+
+Očekávaný výsledek:
+Aplikace nepřijme vstup obsahující číslice
+a zobrazí chybovou hlášku, případně neprovede výpočet.
+
+-----BUG report-----
+
+Název:
+Aplikace přijímá vstup obsahující číslice a provádí chybný výpočet
+
+Kroky:
+1) Otevřu stránku: https://test-intro.engeto.com/
+2) Do pole Křestní jméno zadám: 1111
+3) Do pole Město zadám: 2222
+
+Očekávaný výsledek:
+Aplikace nepřijme vstup obsahující číslice 
+a zobrazí chybovou hlášku, případně neprovede výpočet.
+
+Skutečný výsledek:
+Welcome 1111 from 2222. There are 0 vowels in your first name and 4 consonants 
+in your first name and there are 0 vowels in your city and 4 consonants in your city.
+
+Aplikace přijímá číslice jako platný vstup a provádí chybný výpočet.

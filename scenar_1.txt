@@ -1,0 +1,37 @@
+-----Testovací scénář 1-----
+
+Název:
+Zobrazení výstupu po zadání platných hodnot
+
+Nástroje:
+Webový prohlížeč (Chrome), přístup k internetu
+
+Kroky:
+1) Otevřu stránku: https://test-intro.engeto.com/
+2) Do pole Křestní jméno zadám: Anna
+3) Do pole Město zadám: Praha
+
+Očekávaný výsledek:
+Zobrazí se text v češtině: Jmenujete se Anna a jste z Praha.
+Ve vašem křestním jménu je 2 samohlásky a 2 souhlásky.
+
+-----BUG report-----
+
+Název:
+Text výstupu neodpovídá zadání (jazyk a obsah)
+
+Kroky:
+1) Otevřu stránku: https://test-intro.engeto.com/
+2) Do pole Křestní jméno zadám: Anna
+3) Do pole Město zadám: Praha
+
+Očekávaný výsledek:
+Zobrazí se text v češtině: Jmenujete se Anna a jste z Praha.
+Ve vašem křestním jménu je 2 samohlásky a 2 souhlásky.
+
+Skutečný výsledek:
+Welcome Anna from Praha. There are 2 vowels in your first name and 2 consonants 
+in your first name and there are 2 vowels in your city and 3 consonants in your city.
+
+Text je zobrazen v angličtině, aplikace navíc zobrazuje počet samohlásek a souhlásek ve městě, 
+což není uvedeno v zadání.

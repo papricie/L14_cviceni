@@ -1,0 +1,32 @@
+Zadání cvičení pro manuální testování
+
+Tento úkol je určen pro celý kurz. Je navržen tak, abyste si nejen zapamatovali 
+a pochopili znalosti z tohoto kurzu, ale abyste je také dokázali aplikovat.
+
+
+Požadavky na to, co má aplikace dělat:
+
+- Aplikace by měla být umístěna na adrese https://test-intro.engeto.com/ 
+a na úvodní stránce by měla obsahovat uvítací titulek a dvě pole pro vstupní hodnoty.
+
+- Vstupní údaje: Pokud zadáte neprázdné Křestní jméno a neprázdné Město, 
+zobrazí se na stránce následující 
+
+- Výstup: Jmenujete se <jméno> a jste z <město>. Ve vašem křestním jménu je <správně 
+spočítaný počet samohlásek> samohlásek a <správně spočítaný počet souhlásek> souhlásek.
+
+
+Cvičení:
+
+- V aplikaci je nejméně 21 chyb. Najděte a nahlaste co nejvíce chyb.
+- Jakákoli definice chyby je v pořádku, pokud ji budete schopni na základě definice 
+znovu reprodukovat. Ve většině případů by měl stačit abstrakt chyby.
+- Chyby stačí nahlásit v libovolném dokumentu, není nutný systém evidence problémů (JIRA).
+- Navrhovaný postup, kterým byste se měli naučit nejvíce, je vyzkoušet si testování 
+hned po přečtení celého zadání. Než přejdete k dalším článkům, začněte testovat 
+a nahlaste co nejvíce chyb.
+
+
+Odevzdání:
+Hotové cvičení odevzdejte do 8. lekce na Discord do zprávy lektorům 
+(Nemusí to být jen lektor, který vám zadal cvičení, seznam lektorů najdete v obsahu kurzu)

@@ -1,0 +1,36 @@
+-----Testovací scénář 6-----
+
+Název:
+Zpracování vstupu obsahujícího speciální znaky
+
+Nástroje:
+Webový prohlížeč (Chrome), přístup k internetu
+
+Kroky:
+1) Otevřu stránku: https://test-intro.engeto.com/
+2) Do pole Křestní jméno zadám: ?
+3) Do pole Město zadám: /
+
+Očekávaný výsledek:
+Aplikace nepřijme vstup obsahující speciální znaky
+a zobrazí chybovou hlášku, případně neprovede výpočet.
+
+-----BUG report-----
+
+Název:
+Aplikace přijímá vstup obsahující speciální znaky a provádí chybný výpočet
+
+Kroky:
+1) Otevřu stránku: https://test-intro.engeto.com/
+2) Do pole Křestní jméno zadám: ?
+3) Do pole Město zadám: /
+
+Očekávaný výsledek:
+Aplikace nepřijme vstup obsahující speciální znaky
+a zobrazí chybovou hlášku, případně neprovede výpočet.
+
+Skutečný výsledek:
+Welcome ? from /. There are 0 vowels in your first name and 1 consonants 
+in your first name and there are 0 vowels in your city and 1 consonants in your city.
+
+Aplikace přijímá specialní znaky jako platný vstup a provádí chybný výpočet.

@@ -1,0 +1,37 @@
+-----Testovací scénář 2-----
+
+Název:
+Zpracování vstupu obsahujícího pouze mezery
+
+Nástroje:
+Webový prohlížeč (Chrome), přístup k internetu
+
+Kroky:
+1) Otevřu stránku: https://test-intro.engeto.com/
+2) Do pole Křestní jméno zadám: jednu mezeru
+3) Do pole Město zadám: jednu mezeru
+
+Očekávaný výsledek:
+Aplikace nepřijme vstup obsahující pouze mezery 
+a zobrazí chybovou hlášku, případně neprovede výpočet.
+
+-----BUG report-----
+
+Název:
+Aplikace přijímá mezeru jako platný vstup a provádí chybný výpočet
+
+Kroky:
+1) Otevřu stránku: https://test-intro.engeto.com/
+2) Do pole Křestní jméno zadám: jednu mezeru
+3) Do pole Město zadám: jednu mezeru
+
+Očekávaný výsledek:
+Aplikace nepřijme vstup obsahující pouze mezery 
+a zobrazí chybovou hlášku, případně neprovede výpočet.
+
+Skutečný výsledek:
+Welcome from . There are 0 vowels in your first name and 1 consonants 
+in your first name and there are 0 vowels in your city and 0 consonants in your city.
+
+Aplikace přijímá mezeru jako platný vstup a provádí chybný výpočet (počítá mezeru jako souhlásku).
+

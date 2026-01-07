@@ -1,0 +1,37 @@
+-----Testovací scénář 3-----
+
+Název:
+Zpracování vstupu obsahujícího mezeru před jménem a městem
+
+Nástroje:
+Webový prohlížeč (Chrome), přístup k internetu
+
+Kroky:
+1) Otevřu stránku: https://test-intro.engeto.com/
+2) Do pole Křestní jméno zadám: (mezerník)Anna
+3) Do pole Město zadám: (mezerník)Praha
+
+Očekávaný výsledek:
+Aplikace nepřijme vstup obsahující mezery na začátku hodnoty
+a zobrazí chybovou hlášku, případně neprovede výpočet.
+
+-----BUG report-----
+
+Název:
+Aplikace přijímá vstup obsahující mezery na začátku hodnoty a provádí chybný výpočet
+
+Kroky:
+1) Otevřu stránku: https://test-intro.engeto.com/
+2) Do pole Křestní jméno zadám: (mezerník)Anna
+3) Do pole Město zadám: (mezerník)Praha
+
+Očekávaný výsledek:
+Aplikace nepřijme vstup obsahující mezery na začátku hodnoty 
+a zobrazí chybovou hlášku, případně neprovede výpočet.
+
+Skutečný výsledek:
+Welcome Anna from Praha. There are 2 vowels in your first name and 3 consonants 
+in your first name and there are 2 vowels in your city and 3 consonants in your city.
+
+Aplikace přijímá vstup obsahující mezery na začátku hodnoty, aniž by je zobrazila 
+a provádí chybný výpočet.
