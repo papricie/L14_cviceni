@@ -30,3 +30,4 @@ a nahlaste co nejvíce chyb.
 Odevzdání:
 Hotové cvičení odevzdejte do 8. lekce na Discord do zprávy lektorům 
 (Nemusí to být jen lektor, který vám zadal cvičení, seznam lektorů najdete v obsahu kurzu)
+

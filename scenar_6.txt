@@ -27,7 +27,7 @@ Kroky:
 
 Očekávaný výsledek:
 Aplikace nepřijme vstup obsahující speciální znaky
-a zobrazí chybovou hlášku, případně neprovede výpočet.
+a zobrazí chybovou hlášku, případně neprovede výpočet. 
 
 Skutečný výsledek:
 Welcome ? from /. There are 0 vowels in your first name and 1 consonants 
